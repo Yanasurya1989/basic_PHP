@@ -9,7 +9,7 @@
 
     require 'functions.php';
 
-   $mahasiswa = funcforquery("SELECT * FROM mahasiswa");
+    $mahasiswa = funcforquery("SELECT * FROM mahasiswa");
 
 //    tombol cari ditekan
 if(isset($_POST["cari"])){
